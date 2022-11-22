@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 30px;
+}
+
+.mini-heading {
+    text-align: center;
+    color: #5B7075;
+    text-transform: capitalize;
+    font-size: 19.2px;
+    margin-bottom: 30px;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 48px;
+    line-height: 1.4;
+}
+
+.shape {
+    position: absolute;
+    right: 0;
+}
+
+.header {
+    background: #0a2640;
+    padding: 20px 0 0 0;
+}
+
+body {
+    height: 4000px;
+}
+
+/* ========== Navbar ========== */
+.navbar {
+    padding: 33px;
+    background: #0a2640;
+}
+
+.navbar ul li a {
+    color: white;
+    margin-left: 30px;
+}
+
+.navbar .btn {
+    background: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 28px;
+}
+
+
+/* ========== Hero Section ========== */
+.hero-section {
+    margin: 155px 0 100px 0;
+    color: white;
+}
+
+.hero-section h1 {
+    font-size: 46px;
+    margin-bottom: 27px;
+}
+
+.hero-section p {
+    font-size: 15px;
+    margin-bottom: 27px;
+}
+
+.hero-section .btn {
+    padding: 17px 0;
+    font-weight: bold;
+}
+
+.hero-section .btn-1 {
+    background: #65e4a3;
+    color: black;
+}
+
+.hero-section .btn-2 {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.hero-section .btn-2:hover {
+    background: white;
+    color: black;
+}
+
+.hero-info,
+.hero-img {
+    z-index: 1;
+}
+
+.owl-carousel {
+    padding: 80px 0;
+}
+
+
+
+/* ========== Services Section ========= */
+
+
+.services-section .boxes {
+    margin: 50px 0;
+}
+
+.services-box .services-img img {
+    width: 100%;
+}
+
+.services-box .services-info {
+    margin-top: 20px;
+}
+
+.services-box .services-info h1 {
+    font-size: 1.5rem;
+}
+
+.services-box .services-info p {
+    font-size: 1.2rem;
+    color: #5b7075;
+    margin: 0;
+}
+
+.services-box .services-info a {
+    color: #0A2640;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 3px;
+    border-bottom: 1.5px solid #0A2640;
+    display: inline-block;
+}
+
+.services-box .services-info a i {
+    font-size: 32px;
+    padding: 0;
+    position: relative;
+    top: 5px;
+}
+
+/* ========== Services Section End ========= */
+
+
+/* ========== Customer Section ========= */
+
+.customer-section {
+    margin-top: 7rem;
+}
+
+.customer-heading h1 {
+    font-size: 34px;
+    line-height: 48px;
+    margin-bottom: 50px;
+
+}
+
+.cutomer-icon i {
+    font-size: 35px;
+    margin: 12px 0;
+    margin-right: 10px;
+}
+
+.cutomer-icon {
+    display: flex;
+    align-items: center;
+}
+
+.cutomer-icon span {
+    font-size: 20px;
+}
+
+.cutomer-icon-1 i {
+    font-size: 35px;
+    margin: 12px 0;
+    margin-right: 10px;
+}
+
+.cutomer-icon-1 {
+    display: flex;
+    align-items: center;
+}
+
+.cutomer-icon-1 span {
+    font-size: 20px;
+}
+
+.customer-btn button {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background: #0A2640;
+    padding: 15px;
+    margin: 40px 0;
+}
+
+/* ========== manager Section  ========= */
+
+.manager-section {
+    background-color: #0A2640;
+}
+
+.manager-heading {
+    padding-top: 60px;
+}
+
+.manager-heading h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.manager-card {
+    /* width: 350px; */
+    /* height: 320px; */
+    background: white;
+    color: black;
+    margin: 80px 15px;
+}
+
+.manager-card h5 {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+.manager-card-head {
+    padding: 20px 0;
+    display: flex;
+    text-align: center;
+}
+
+.manager-card-image {
+    margin-left: 32px;
+}
+
+.manager-card-image img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.manager-card-text {
+    margin-left: 20px;
+    text-align: start;
+}
+
+/* ========== manager Section End ========= */
+
+
+/* ========== Blog Section  ========= */
+
+.blog-section {
+    margin-top: 4rem;
+}
+
+.boxes {
+    margin: 50px 0;
+}
+
+.blog-image img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.blog-head {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.blog-head-1 {
+    display: flex;
+    align-items: center;
+}
+
+
+.blog-heading {
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.blog-round-image {
+    margin-right: 15px;
+}
+
+.blog-round-image img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.blog-heading h5 {
+    font-weight: bolder;
+}
+
+.footer-head {
+    margin-top: 7rem;
+}
+
+
+/* -----------Responsive Begin-----------*/
+
+@media screen and (max-width: 992px) {
+
+    .mini-heading {
+        font-size: 15px;
+    }
+
+    .main-heading {
+        font-size: 30px;
+        line-height: 1.1;
+    }
+
+    /* ====Hero sec start===== */
+
+    .hero-section h1 {
+        font-size: 30px;
+    }
+
+    .hero-section p {
+        font-size: 12px;
+    }
+
+
+
+    /* ====Services sec start===== */
+
+    .services-box .services-info h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .services-box .services-info p {
+        font-size: 1rem;
+    }
+
+    .services-box .services-info a {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .services-box .services-info a i {
+        font-size: 24px;
+    }
+
+
+    /* ====Customer sec start===== */
+
+    .customer-heading h1 {
+        font-size: 20px;
+        line-height: 42px;
+    }
+
+    .cutomer-icon i {
+        font-size: 24px;
+    }
+
+    .cutomer-icon span {
+        font-size: 14px;
+    }
+
+    .cutomer-icon-1 i {
+        font-size: 24px;
+    }
+
+    .cutomer-icon-1 span {
+        font-size: 14px;
+    }
+
+    .customer-btn button {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+
+    /* ====Manager sec start===== */
+
+    .manager-heading h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .manager-card h5 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .manager-card-text h6 {
+        font-size: 11px;
+    }
+
+    .manager-card-text p {
+        font-size: 10px;
+    }
+
+
+    /* ====Blog sec start===== */
+
+    .blog-heading h5 {
+        font-size: 14px;
+    }
+
+    .blog-date h6 {
+        font-size: 12px;
+    }
+
+    .blog-info p {
+        font-size: 13px;
+    }
+
+    .blog-heading h6 {
+        font-size: 14px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* -----------Responsive End-----------*/
